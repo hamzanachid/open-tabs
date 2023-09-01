@@ -1,0 +1,30 @@
+{
+    "manifest_version":3,
+    "name":"WhatsApp Opener",
+    "version":"1.0",
+    "description":"open whatsapp with alt+w",
+    "permissions":["commands"],
+    "background":{
+        "service_worker":"background.js"
+    },
+    "commands":{
+        "open-whatsapp":{
+            "suggested_key":{
+                "default":"Alt+W"
+            },
+            "description":"open whatsapp"
+        },
+        "open-youtube":{
+            "suggested_key":{
+                "default":"Alt+Y"
+            },
+            "description":"open youtube"
+        },
+        "open-twitter":{
+            "suggested_key":{
+                "default":"Alt+T"
+            },
+            "description":"open twitter"
+        }
+    }
+}
