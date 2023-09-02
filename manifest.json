@@ -1,8 +1,8 @@
 {
     "manifest_version":3,
-    "name":"WhatsApp Opener",
+    "name":"tabs Opener",
     "version":"1.0",
-    "description":"open whatsapp with alt+w",
+    "description":"open tabs with shortcats",
     "permissions":["commands"],
     "background":{
         "service_worker":"background.js"

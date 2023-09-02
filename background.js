@@ -9,3 +9,5 @@ chrome.commands.onCommand.addListener(function (command) {
         chrome.tabs.create({url:"https://www.twitter.com/"})
     }
 })
+
+console.log(chrome.commands);
