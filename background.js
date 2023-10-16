@@ -8,6 +8,12 @@ chrome.commands.onCommand.addListener(function (command) {
     else if(command==="open-twitter"){
         chrome.tabs.create({url:"https://www.twitter.com/"})
     }
+    else if(command==="open-fb"){
+        chrome.tabs.create({url:"https://www.facebook.com/"})
+    }
+    else if(command==="open-chat"){
+        chrome.tabs.create({url:"https://chat.openai.com/"})
+    }
 })
 
 console.log(chrome.commands);

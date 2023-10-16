@@ -25,6 +25,18 @@
                 "default":"Alt+T"
             },
             "description":"open twitter"
+        },
+        "open-chat":{
+            "suggested_key":{
+                "default":"Alt+C"
+            },
+            "description":"open chat"
+        },
+        "open-fb":{
+            "suggested_key":{
+                "default":"Alt+F"
+            },
+            "description":"open fb"
         }
     }
 }
